@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.gradiente {
+  height: 30px;
+  width: 100vw;
+  background: linear-gradient(
+    to right,
+    #f69b2f,
+    #d8431a,
+    #a54c4e,
+    #00567c,
+    #0072a5
+  );
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.bloco-gradiente {
+  max-width: 600px;
+  padding: 20px;
+  background: white;
+  border-radius: 40px;
+  border: 3px solid;
+  border-image: linear-gradient(to right,
+    #f69b2f,
+    #d8431a,
+    #a54c4e,
+    #00567c,
+    #0072a5) 1;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  line-height: 1.6;
+}
